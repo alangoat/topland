@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'name' => 'Hóa Đơn',
+    'amount' => 'Số tiền',
+    'code' => 'Mã hóa đơn',
+    'show' => 'Invoice :code',
+    'print' => 'In hóa đơn',
+    'download' => 'Tải xuống hóa đơn',
+    'heading' => 'Hóa Đơn',
+    'purchase_at' => 'Ngày tạo',
+    'sub_total' => 'Tổng cộng',
+    'tax_amount' => 'Tax amount',
+    'discount_amount' => 'Discount amount',
+    'total_amount' => 'Thành tiền',
+    'status' => 'Trạng thái',
+    'account' => 'Account',
+    'payment_info' => 'Thông tin thanh toán',
+    'payment_method' => 'Phương thức thanh toán',
+    'payment_status' => 'Trạng thái thanh toán',
+    'item' => [
+        'name' => 'Tên',
+        'qty' => 'Sô Lượng',
+        'description' => 'Miêu Tả',
+    ],
+    'statuses' => [
+        'pending' => 'Chờ phê duyệt',
+        'processing' => 'Đang xử lí',
+        'completed' => 'Hoàn thành',
+        'canceled' => 'Hủy bỏ',
+    ],
+    'template' => [
+        'name' => 'Invoice Template',
+        'setting' => 'Invoice Settings',
+        'setting_description' => 'Settings for Invoice template',
+        'setting_content' => 'Content',
+        'preview' => 'Preview',
+        'preview_heading' => 'Preview Invoice template',
+    ],
+];
